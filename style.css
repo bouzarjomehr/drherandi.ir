@@ -223,7 +223,7 @@
         }
 
         .brand-name {
-            font-size: clamp(28px, 4vw, 46px);
+            font-size: clamp(36px, 4vw, 46px);
             font-weight: 700;
             color: var(--deep-green);
 
@@ -233,7 +233,7 @@
         }
 
         .tagline {
-            font-size: 30px;
+            font-size: clamp(25px, 3vw, 30px);
             font-weight: 500;
             color: var(--gold);
             margin-bottom: 24px;
@@ -251,20 +251,14 @@
 
         .instagram-button {
             display: inline-flex;
-
             align-items: center;
             justify-content: center;
-
             gap: 10px;
-
             background: var(--deep-green);
             color: white;
-
             padding: 13px 25px;
-
             border-radius: 999px;
-
-            /* font-size: 16px; */
+            font-size: clamp(16px, 3vw, 20px);
             font-weight: 600;
 
             box-shadow:
@@ -331,7 +325,7 @@
 
         .location-small {
             margin-top: 10px;
-            font-size: 18px;
+            font-size: clamp(16px, 2vw, 18px);
             color: #686c63;
         }
 
